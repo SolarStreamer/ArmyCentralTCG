@@ -1,8 +1,21 @@
 {
-  "slots": {
-    "armyFrontRow": 5,
-    "spellTrapRow": 5,
-    "leaderSlot": 1
+  "leaderStart": {
+    "faceDown": true,
+    "turnUprightOnBattleStart": true,
+    "position": "ATK"
   },
-  "layoutNote": "Visual layout only, no terrain bonuses."
+  "unitPositions": {
+    "atk": "upright",
+    "def": "sideways"
+  },
+  "attack": {
+    "energyCost": 1,
+    "requiresAtkPosition": true
+  },
+  "movement": {
+    "enabled": false
+  },
+  "range": {
+    "enabled": false
+  }
 }
