@@ -1,1 +1,16 @@
-
+{
+  "template": {
+    "Knight": { "atk": 150, "hp": 350 },
+    "Archer": { "atk": 200, "hp": 250 },
+    "Bulwark": { "atk": 100, "hp": 400 }
+  },
+  "races": {
+    "Human": ["Knight", "Archer", "Bulwark"],
+    "Robot": ["Knight", "Archer", "Bulwark"],
+    "SciFi": ["Knight", "Archer", "Bulwark"],
+    "Alien": ["Knight", "Archer", "Bulwark"],
+    "Shadow": ["Knight", "Archer", "Bulwark"],
+    "Angel": ["Knight", "Archer", "Bulwark"],
+    "Demon": ["Knight", "Archer", "Bulwark"]
+  }
+}
