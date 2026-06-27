@@ -1,1 +1,8 @@
-
+{
+  "slots": {
+    "armyFrontRow": 5,
+    "spellTrapRow": 5,
+    "leaderSlot": 1
+  },
+  "layoutNote": "Visual layout only, no terrain bonuses."
+}
