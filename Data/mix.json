@@ -1,1 +1,5 @@
-
+{
+  "MixKnight": { "atk": 130, "hp": 300 },
+  "MixArcher": { "atk": 180, "hp": 230 },
+  "SpellCaster": { "atk": 150, "hp": 200 }
+}
