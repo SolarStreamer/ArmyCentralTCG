@@ -1,1 +1,22 @@
-
+{
+  "armour": [
+    { "name": "Iron Plate", "defBoost": 10, "energyCost": 2 },
+    { "name": "Titan Shield", "defBoost": 20, "energyCost": 3 },
+    { "name": "Guardian Armour", "defBoost": 30, "energyCost": 5 }
+  ],
+  "hp": [
+    { "name": "Vital Herb", "heal": 50, "energyCost": 2 },
+    { "name": "Life Crystal", "heal": 100, "energyCost": 3 },
+    { "name": "Soul Core", "heal": 150, "energyCost": 5 }
+  ],
+  "atk": [
+    { "name": "Sharpened Blade", "atkBoost": 15, "energyCost": 2 },
+    { "name": "War Hammer", "atkBoost": 25, "energyCost": 3 },
+    { "name": "Dragon Fang", "atkBoost": 40, "energyCost": 5 }
+  ],
+  "energy": [
+    { "name": "Energy Shard", "energyGain": 1, "energyCost": 1 },
+    { "name": "Power Core", "energyGain": 2, "energyCost": 2 },
+    { "name": "Overcharge Cell", "effect": "nextAttackFree", "energyCost": 2 }
+  ]
+}
