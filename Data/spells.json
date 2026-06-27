@@ -1,1 +1,28 @@
-
+{
+  "offensive": [
+    { "name": "Fireball", "dmg": 50, "energyCost": 2 },
+    { "name": "Flame Burst", "dmg": 75, "energyCost": 3 },
+    { "name": "Lightning Shot", "dmg": 40, "energyCost": 2 },
+    { "name": "Arcane Bolt", "dmg": 30, "energyCost": 2 },
+    { "name": "Void Spike", "dmg": 60, "energyCost": 3 },
+    { "name": "Solar Beam", "dmg": 80, "energyCost": 4 }
+  ],
+  "healing": [
+    { "name": "Healing Sphere", "heal": 50, "energyCost": 2 },
+    { "name": "Rejuvenation", "heal": 75, "energyCost": 3 },
+    { "name": "Light Mend", "heal": 40, "energyCost": 2 },
+    { "name": "Nature’s Blessing", "heal": 100, "energyCost": 4 }
+  ],
+  "buffs": [
+    { "name": "Shield Aura", "defBoost": 10, "duration": 1, "energyCost": 2 },
+    { "name": "Battle Cry", "atkBoost": 25, "duration": 1, "energyCost": 3 },
+    { "name": "Focus Mind", "effect": "nextAttackFree", "energyCost": 2 },
+    { "name": "Guardian Light", "damageReduction": 25, "duration": 1, "energyCost": 3 }
+  ],
+  "utility": [
+    { "name": "Energy Surge", "energyGain": 1, "energyCost": 1 },
+    { "name": "Card Draw", "cards": 1, "energyCost": 2 },
+    { "name": "Reveal", "effect": "revealTrap", "energyCost": 2 },
+    { "name": "Dispel", "effect": "removeBuff", "energyCost": 3 }
+  ]
+}
