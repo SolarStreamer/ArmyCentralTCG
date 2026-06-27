@@ -1,1 +1,18 @@
-
+{
+  "damage": [
+    { "name": "Pitfall", "dmg": 50, "energyCost": 2 },
+    { "name": "Spike Launcher", "dmg": 75, "energyCost": 2 },
+    { "name": "Explosive Rune", "dmg": 100, "energyCost": 3 },
+    { "name": "Shadow Mine", "dmg": 80, "energyCost": 3 }
+  ],
+  "control": [
+    { "name": "Stun Net", "effect": "stunNextTurn", "energyCost": 2 },
+    { "name": "Freeze Field", "effect": "forceDefPosition", "energyCost": 2 },
+    { "name": "Energy Drain", "effect": "lose1Energy", "energyCost": 2 },
+    { "name": "Silence Seal", "effect": "cancelNextSpell", "energyCost": 3 }
+  ],
+  "reveal": [
+    { "name": "Vision Pulse", "effect": "revealFaceDown", "energyCost": 2 },
+    { "name": "Scan Burst", "effect": "revealHand", "energyCost": 3 }
+  ]
+}
