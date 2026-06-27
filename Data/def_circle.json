@@ -1,1 +1,9 @@
-
+{
+  "Human": { "strongAgainst": "Shadow", "weakAgainst": "Demon", "neutralDef": 35, "strongDef": 50, "weakDef": 20 },
+  "Robot": { "strongAgainst": "Alien", "weakAgainst": "Angel", "neutralDef": 35, "strongDef": 50, "weakDef": 20 },
+  "SciFi": { "strongAgainst": "Robot", "weakAgainst": "Shadow", "neutralDef": 35, "strongDef": 50, "weakDef": 20 },
+  "Alien": { "strongAgainst": "Human", "weakAgainst": "SciFi", "neutralDef": 35, "strongDef": 50, "weakDef": 20 },
+  "Shadow": { "strongAgainst": "Angel", "weakAgainst": "Human", "neutralDef": 35, "strongDef": 50, "weakDef": 20 },
+  "Angel": { "strongAgainst": "Demon", "weakAgainst": "Robot", "neutralDef": 35, "strongDef": 50, "weakDef": 20 },
+  "Demon": { "strongAgainst": "Angel", "weakAgainst": "Alien", "neutralDef": 35, "strongDef": 50, "weakDef": 20 }
+}
