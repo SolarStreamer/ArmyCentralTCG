@@ -1,1 +1,46 @@
-
+{
+  "races": {
+    "Human": [
+      { "name": "Rowan Hale", "buff": "HP+", "hp": 4000 },
+      { "name": "Victor Maren", "buff": "Energy+", "hp": 4000 },
+      { "name": "Elara Quinn", "buff": "DamageTaken-", "hp": 4000 },
+      { "name": "Mira Solen", "buff": "DamageDealt+", "hp": 4000 }
+    ],
+    "Robot": [
+      { "name": "Jax Turner", "buff": "HP+", "hp": 4000 },
+      { "name": "Cole Varrin", "buff": "Energy+", "hp": 4000 },
+      { "name": "Lyra Dane", "buff": "DamageTaken-", "hp": 4000 },
+      { "name": "Nova Kess", "buff": "DamageDealt+", "hp": 4000 }
+    ],
+    "SciFi": [
+      { "name": "Orion Vale", "buff": "HP+", "hp": 4000 },
+      { "name": "Kael Strix", "buff": "Energy+", "hp": 4000 },
+      { "name": "Sera Nyx", "buff": "DamageTaken-", "hp": 4000 },
+      { "name": "Talia Vorn", "buff": "DamageDealt+", "hp": 4000 }
+    ],
+    "Alien": [
+      { "name": "Ren Vox", "buff": "HP+", "hp": 4000 },
+      { "name": "Daro Lune", "buff": "Energy+", "hp": 4000 },
+      { "name": "Vira Sen", "buff": "DamageTaken-", "hp": 4000 },
+      { "name": "Luma Kair", "buff": "DamageDealt+", "hp": 4000 }
+    ],
+    "Shadow": [
+      { "name": "Silas Thorn", "buff": "HP+", "hp": 4000 },
+      { "name": "Kade Vesper", "buff": "Energy+", "hp": 4000 },
+      { "name": "Nyra Shade", "buff": "DamageTaken-", "hp": 4000 },
+      { "name": "Lira Noctis", "buff": "DamageDealt+", "hp": 4000 }
+    ],
+    "Angel": [
+      { "name": "Arion Vale", "buff": "HP+", "hp": 4000 },
+      { "name": "Lucen Aris", "buff": "Energy+", "hp": 4000 },
+      { "name": "Selene Aria", "buff": "DamageTaken-", "hp": 4000 },
+      { "name": "Kaia Lior", "buff": "DamageDealt+", "hp": 4000 }
+    ],
+    "Demon": [
+      { "name": "Draven Korr", "buff": "HP+", "hp": 4000 },
+      { "name": "Malek Vorn", "buff": "Energy+", "hp": 4000 },
+      { "name": "Riva Thorn", "buff": "DamageTaken-", "hp": 4000 },
+      { "name": "Sira Vex", "buff": "DamageDealt+", "hp": 4000 }
+    ]
+  }
+}
